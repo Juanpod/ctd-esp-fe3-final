@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -25,10 +27,15 @@ h1{
 
 nav{
   display: flex;
-  width: 80vw;
-  justify-content: flex-start;
+  width: auto;
+  justify-content: space-between;
   padding: 1rem;
+  text-align: center;
+  
+  
 }
+
+
 
 a{
   color: #000;
@@ -59,6 +66,12 @@ footer > img{
 footer > p{
   margin: 0;
   padding-top: 0.7rem;
+}
+
+
+#logo{
+  width: 200px;
+  margin: 0;
 }
 
 form{
@@ -92,6 +105,12 @@ form{
   height: auto;
   flex-wrap: wrap;
   margin: 0 auto;
+  
+}
+
+.card-image{
+  width: 100%;
+  height: auto;
 }
 
 table {
@@ -119,4 +138,8 @@ tr:nth-child(even) {
 }
 .dark > a {
   color: white;
+}
+
+.page{
+  border: 1px solid white;
 }
