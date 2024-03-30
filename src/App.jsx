@@ -7,7 +7,7 @@ import Detail from "./Routes/Detail"
 import Favs from "./Routes/Favs"
 import { Route, Routes } from 'react-router-dom'
 import { routes } from "./Components/utils/routes"
-import { useContextGlobal } from "./Components/utils/global.context";
+
 
 //Hola mundo
 

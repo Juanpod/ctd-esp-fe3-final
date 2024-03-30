@@ -15,7 +15,6 @@ export const reducer = (state, action) => {
               } catch (error) {
                 console.error('Error al analizar JSON:', error)
               }
-        
 
             console.log(favs)
             const nuevosFavs = [...favs, action.payload]
